@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.inc": "c",
+        "*.res": "c",
+        "*.data": "c"
+    }
+}
