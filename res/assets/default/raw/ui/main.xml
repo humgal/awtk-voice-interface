@@ -1,0 +1,7 @@
+<window anim_hint="htranslate" style="bg_main" x="0%" y="0%" w="100%" h="100%" >
+     <view x="0" y="0" w="100%" h="10%">
+        <label name="sys_time" x="right:10" y="m" w="150" h="100%" style="right"/>
+    </view>
+     <image name="voice" image="aa4" x="center" y="90%" w="30" h="30" draw_type="icon" />
+    
+</window>
