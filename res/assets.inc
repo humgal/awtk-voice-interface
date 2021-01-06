@@ -8,9 +8,9 @@
 #include "assets/default/inc/ui/main.data"
 #include "assets/default/inc/ui/kb_ascii.data"
 #ifdef WITH_STB_IMAGE
-#include "assets/default/inc/images/aa4.res"
 #include "assets/default/inc/images/bg_main.res"
 #include "assets/default/inc/images/aa.res"
+#include "assets/default/inc/images/back.res"
 #else
 #endif/*WITH_STB_IMAGE*/
 #if defined(WITH_STB_FONT) || defined(WITH_FT_FONT)
@@ -27,9 +27,9 @@ ret_t assets_init(void) {
   assets_manager_preload(rm, ASSET_TYPE_STYLE, "default");
 #else
   assets_manager_add(rm, font_default);
-  assets_manager_add(rm, image_aa4);
   assets_manager_add(rm, image_bg_main);
   assets_manager_add(rm, image_aa);
+  assets_manager_add(rm, image_back);
   assets_manager_add(rm, style_keyboard);
   assets_manager_add(rm, style_default);
   assets_manager_add(rm, ui_main);

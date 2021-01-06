@@ -11,7 +11,7 @@
         <normal bg_color="white"/>
     </style>
     <style name="bg_main">
-        <normal bg_image="bg_main"/>
+        <normal bg_image="back"/>
     </style>
 </window>
 <switch>
