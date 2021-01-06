@@ -5,3 +5,6 @@
 /bin/*.lib
 /bin/*.pdb
 /src/*.obj
+/res/assets/default/inc/*
+/bin/*
+/src/*.o
