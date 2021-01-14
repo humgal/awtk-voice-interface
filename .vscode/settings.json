@@ -2,6 +2,10 @@
     "files.associations": {
         "*.inc": "c",
         "*.res": "c",
-        "*.data": "c"
+        "*.data": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c"
     }
 }

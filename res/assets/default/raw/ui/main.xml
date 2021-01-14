@@ -1,7 +1,9 @@
 <window anim_hint="htranslate" style="bg_main" x="0%" y="0%" w="100%" h="100%" >
-     <view x="0" y="0" w="100%" h="10%">
-        <label name="sys_time" x="right:10" y="m" w="150" h="100%" style="right"/>
-    </view>
-     <image name="voice" image="aa" x="center" y="85%" w="86" h="86" draw_type="icon" />
-    
+
+    <list_view name="lrc_view" x="2%" y="2%" w="100%" h="80%" item_height="25" style="empty">
+        <scroll_view name="lrc_scroll" x="0" y="0" w="100%" h="100%" xslidable="FALSE" yslidable="TRUE" style="empty">
+        </scroll_view>
+        <scroll_bar name="bar" x="right" y="0" w="0" h="0" value="0"/>
+    </list_view>
+    <image name="voice" image="aa" x="center" y="85%" w="86" h="86" draw_type="icon" />
 </window>
